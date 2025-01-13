@@ -1,0 +1,120 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #0e1501;
+    color: #0e0401;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #064d08; /* Green Background */
+    color: rgb(146, 146, 22); /* Yellow text */
+    padding: 20px;
+    text-allign: center;
+}
+header h1 {
+    margin-bottom: 10px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: rgb(58, 2, 2);
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: rgb(26, 155, 17);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+section h2 {
+    margin-bottom: 15px;
+    color: rgb(249, 249, 247); /* Orange Text */
+}
+
+/* About Section /*
+
+#about img {
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 15px;
+    border: 3px solid #333;
+}
+#about p {
+    text-allign: center;
+    font-size: 18px;
+}
+
+
+/* Portfolio Section */
+.portfolio-item {
+    margin-bottom: 15px;
+    text-allign: center;
+}
+.portfolio-item img {
+    max-width: 300%;
+    align-items: center;
+    height: auto;
+    border: 20px solid #3498DB /* Blue Border */
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background-color: #f4f4f4;
+
+}
+.portfolio-item p {
+    font-size: 16px;
+    color: #0d0101;
+}
+
+/* Contact Section */ 
+form {
+    display: flex;
+    flex-direction: column;
+}
+form label {
+    margin: 5px 0;
+}
+form input, form textarea, form button {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    background-color: #590209; /* red Button */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #13034d; /* Darker blue on hover */
+}
+
+/* Footer */
+footer {
+    text-allign: center;
+    padding: 10px;
+    background-color: #222222; /* Dark gray background */ 
+    color: white;
+}
